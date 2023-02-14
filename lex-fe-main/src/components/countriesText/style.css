@@ -1,0 +1,48 @@
+.countries_text_main_grid {
+  color: white !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  max-width: 900px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 150px !important;
+  padding: 0px 40px !important;
+}
+.countries_text {
+  font-family: 'Stolzl' !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  font-size: 32px !important;
+  line-height: 150% !important;
+  text-align: justify !important;
+  letter-spacing: 0.15em !important;
+  color: #ffffff !important;
+  max-width: 900px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 70px !important;
+  padding: 0px 40px !important;
+}
+.countries_text_points {
+  font-family: 'Stolzl' !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  font-size: 40px !important;
+  line-height: 48px !important;
+  letter-spacing: 0.15em !important;
+  text-transform: uppercase !important;
+  color: #ffffff !important;
+}
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .countries_text_points,
+  .countries_text {
+    font-size: 25px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .countries_text_points,
+  .countries_text {
+    font-size: 18px !important;
+  }
+}
